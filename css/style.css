@@ -1,0 +1,1013 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header section css code start here */
+.header{
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 2px solid #fff;
+    background: #151516;
+}
+.header .name{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.header .name:hover{
+    color: #fff;
+}
+
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+    color: #69686f
+    
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+    color: #69686f
+    
+}
+
+.home{
+    width: 100%;
+    padding: 80px 0px;
+    background: #151516;
+
+}
+.home .des{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.home .pic{
+    padding: 80px 0px;
+}
+.home .pic img{
+    width: 50%;
+    border: 8px solid #fff;
+    border-radius: 109%;
+    margin-left: 170px;
+}
+.home .title{
+   color: #fff;
+    text-align: left;
+    padding: 80px 0px;
+    margin-top: 40px;x
+
+}
+.home .title .title-t{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.2em;
+
+}
+/* .home .title .title-t-des{
+
+} */
+.home .let-connect{
+        padding: 80px 0px;
+        color: #fff;
+        margin-top: 40px;
+        text-align: center;
+        
+}
+.home .let-connect .let-connect-title{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+.home .let-connect .social{
+    margin-right: 65px;
+    padding: 20px 0px;
+}
+.home .let-connect .social ul{
+    list-style: none;
+}
+.home .let-connect .social ul li{
+    display: inline-block;
+  
+}
+.home .let-connect .social ul li a{
+    font-size: 30px;
+    margin: 0px 5px;
+    color: #fff;
+}
+.home .let-connect .social ul li a:hover{
+    color: rgb(77, 5, 121);
+}
+.home .let-connect .social ul li a:focus{
+    color: rgb(77, 5, 121);
+}
+/* header section css code end here */
+
+/* what-i-do section css code start here */
+.what-i-do{
+    width: 100%;
+    padding: 80px 0px;
+    
+}
+.what-i-do .intro{
+   text-align: center;
+}
+.what-i-do .intro .intro-title{
+    
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.2em
+}
+.what-i-do .intro .intro-title-des{
+   
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2em
+}
+.what-i-do .feature-item{
+    padding: 20px 0px;
+    text-align: justify;
+    margin-left: 115px;
+}
+.what-i-do .feature-item1{
+    display: flex;
+    padding: 20px 19px;
+ }
+ .what-i-do .feature-item1 .icon{
+    flex-basis: 10%;
+    margin-top: 15px;
+
+ }
+ .what-i-do .feature-item1 .icon .fa{
+    font-size: 70px;
+    color: rgb(163, 128, 20);
+
+ }
+ .what-i-do .feature-item1 .content{
+   flex-basis: 90%;
+   margin-left: 15px;
+ }
+ .what-i-do .feature-item1 .content .content-t{
+    font-size: 30px;
+    line-height: 1.7em;
+    font-weight: 500;
+    text-transform: capitalize;
+ }
+ .what-i-do .feature-item1 .content .content-t-des{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin-top: -15px;
+ }
+/* what-i-do section css code end here */
+/* feature section css code start here */
+.feature{
+    width: 100%; 
+    height: 100vh;
+    background: #69686f;
+}
+.feature .title .title-t{
+   
+    font-size: 42px;
+    line-height: 1.7em;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+.feature .card{
+    margin-left: 495px;
+    margin-bottom: 20px;
+    width: 18rem;
+
+}
+.feature .card img{
+    width: 100%;
+}
+.feature .card .card-body{
+    
+}
+.feature .card .card-body .card-title{
+    font-size: 25px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: left;
+}
+.feature .card .card-body .card-text{
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-align: left;
+}
+.feature .card .card-body .btn-primary{
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    background-color: blueviolet;
+    color: #fff;
+}
+   
+.feature .card .card-body .btn-primary:hover{
+    border: 2px solid blue;
+    color: blueviolet;
+    background-color: transparent;
+}
+.feature .card .card-body .btn-primary:focus{
+    border: 2px solid blue;
+    color: blueviolet;
+    background-color: transparent;
+}
+/* feature section css code end here */
+/* client recview section css code start here */
+.client-review{
+    width: 100%;
+    padding: 80px 0px 0px;
+}
+.client-review .client-review-t{
+    font-size: 35px;
+    line-height: 1.7em;
+     color: #090303ed;
+    text-align: center;
+    text-transform: uppercase;
+}
+.client-review .client-review-t span{
+    font-size: 35px;
+    line-height: 1.7em;
+    color: #090303ed;
+    text-align: center;
+    text-transform: uppercase;
+    }
+.client-review .owl-carousel{
+    text-align: center;
+    padding: 40px 0px 0px;
+}
+.client-review .owl-carousel .client{
+    width: 150px;
+    margin-left: 585px;
+    border-radius: 67%;
+
+}
+.client-review .owl-carousel .item .client-comment{
+    padding: 40px 0px;
+    color: #050303;
+}
+   
+/* client recview section css code end here */
+/* contact section css code end here*/
+.contact{
+    width: 100%;
+    padding: 70px 0px 140px 0px;
+    background: #908b8b;
+    border-bottom: 2px solid #fff;
+    
+}
+
+.contact .contact-head h2{
+    text-align: center;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.contact .contact-form{
+    text-align: center;
+    position: relative;
+}
+.contact .form-box-inner{
+    width: 100%;
+}
+.contact .form-box{
+    width: 70%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 0.2px solid #b6b6b8;
+    background: #fff;
+    color: #000;
+}
+.contact .contact-form .form-box-inner input {
+    overflow: visible;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+.contact .contact-form .form-box-inner-massege input{
+    overflow: visible;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact .form-box-inner-massege{
+    width: 100%;
+}
+.contact .form-box-massage{
+    width: 70%;
+    padding: 10px 10px 100px 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 0.2px solid #b6b6b8;
+    background: #fff;
+}
+.contact .form-box:focus{
+    outline: none;
+}
+.contact .form-box-massage:focus{
+    outline: none;
+}
+.contact .contact-form .button{
+    text-align: center;
+}
+.contact .button .btn-primary{
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    border-radius: 50px;
+    border: 2px solid #4409d0;
+    background: #4409d0;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 30px;
+    transition: 1s;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 43.2%;
+    box-shadow: 2px 5px 15px rgba(45, 52, 54, 0.3);
+
+}
+.contact .btn-primary:hover{
+    border: 2px solid #4409d0;
+    background: #fff;
+    color: #4409d0;
+    transition: 1s ease;
+}
+.contact .btn-primary:focus{
+    border: 2px solid #4409d0;
+    background: #fff;
+    color: #4409d0;
+    transition: 1s ease;
+}
+/* contact me section css code end here */
+/* reach me section css code start here */
+.reache-me{
+    width: 100%;
+    background: #1b07b1;
+}
+.reache-me .let-connect{
+    
+    color: #fff;
+    margin-top: 40px;
+    text-align: center; 
+
+}
+.reache-me .let-connect .let-connect-title{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+.reache-me .let-connect .social{
+    margin-right: 45px;
+
+}
+.reache-me .let-connect .social ul{
+    list-style: none;
+}
+.reache-me .let-connect .social ul li{
+    display: inline-block;
+
+}
+.reache-me .let-connect .social ul li a{
+    font-size: 30px;
+    margin: 0px 5px;
+    color: #fff;
+}
+.reache-me .let-connect .social ul li a:hover{
+    color: rgb(77, 5, 121);
+}
+.reache-me .let-connect .social ul li a:focus{
+    color: rgb(77, 5, 121);
+}
+.reache-me .copyright{
+    width: 100%;
+}
+.reache-me .copyright .inner-cpoyright .inner-copyright-text{
+    font-size: 15px;
+    color: #fff;
+     margin-top: 30px;
+    
+ }
+/* reach me section css code end here */
+/* responsive.css start here */
+@media (min-width: 320px) and (max-width: 480px) {
+    .header .name{
+        font-size: 22px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .header .navbar-nav .nav-item .nav-link{
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .header .navbar-nav .nav-item .nav-link:hover{
+        color: #69686f
+        
+    }
+    .header .navbar-nav .nav-item .nav-link:focus{
+        color: #69686f
+        
+    }
+    .header .navbar-toggler{
+        color: #09c;
+    }
+    .header .navbar-toggler{
+        background: #fff;
+       
+    }
+    .header .fa-bars{
+        color: #09c;
+    }
+    .home .des {
+        font-size: 13px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 1.3em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .home .pic img {
+        width: 50%;
+        border: 8px solid #fff;
+        border-radius: 109%;
+        margin-left: 80px;
+    }
+    .home .pic {
+        padding: 80px 0px 0px;
+    }
+    .home .pic img {
+        width: 50%;
+        border: 8px solid #fff;
+        border-radius: 109%;
+        margin-left: 80px;
+    }
+    .home .title {
+        color: #fff;
+        text-align: left;
+        padding: 80px 0px;
+        margin-top: 0px;
+    }
+        
+    .home .title .title-t {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+     .home .let-connect {
+            padding: 0px 0px;
+            color: #fff;
+            margin-top: 0px;
+            text-align: center;
+        }
+        .home .let-connect .let-connect-title {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+        .what-i-do {
+            width: 100%;
+            padding: 40px 0px;
+        }
+        .what-i-do .intro .intro-title {
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+        .what-i-do .intro .intro-title-des {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.2em;
+        }
+        .what-i-do .feature-item {
+            padding: 20px 0px;
+            text-align: justify;
+            margin-left: 34px;
+        }
+        .what-i-do .feature-item1 .icon .fa {
+            font-size: 39px;
+            color: rgb(163, 128, 20);
+        }
+        .what-i-do .feature-item1 .content .content-t {
+            font-size: 16px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .what-i-do .feature-item1 .content .content-t {
+            font-size: 11px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .what-i-do .feature-item1 .content .content-t-des {
+            font-size: 8px;
+            line-height: 1.2em;
+            font-weight: 400;
+            margin-top: -7px;
+        }
+        .feature .title .title-t {
+            font-size: 30px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 26px;
+        }
+        .feature .card{
+            margin-left: 0px;
+            margin-bottom: 10px;
+        }
+        .client-review .client-review-t{
+            font-size: 20px;
+            line-height: 1.2em;
+            color: #090303ed;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .client-review{
+            padding: 80px 0px;
+            margin-top: 80px;
+        }
+        .client-review .client-review-t span{
+            font-size: 20px;
+            line-height: 1.2em;
+            color: #090303ed;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .client-review .owl-carousel .client{
+            margin-left: 670px;
+        }
+        .client-review .owl-carousel .item .client-comment{
+            font-size: 9px;
+            padding: 20px 0px 0px;
+        }
+        .contact .contact-head h2{
+            font-size: 30px;
+            text-align: center;
+            line-height: 1.7em;
+            font-weight: 700px;
+        }
+        .contact .form-box{
+            width: 80%;
+            padding: 10px;
+            background: #fff;
+            color: #000;
+        }
+        .contact .form-box-massage{
+            width: 80%;
+        }
+        .contact .button .btn-primary{
+            font-size: 13px;
+            right: 30.2%;
+        }
+        .reache-me .let-connect .let-connect-title{
+            font-size: 25px;
+        }
+        .reache-me .let-connect .social ul li a{
+            font-size: 25px;
+        }
+        .reache-me .copyright .inner-cpoyright .inner-copyright-text {
+            font-size: 10px;
+        }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header .name{
+        font-size: 22px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .header .navbar-nav .nav-item .nav-link{
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .header .navbar-nav .nav-item .nav-link:hover{
+        color: #69686f
+        
+    }
+    .header .navbar-nav .nav-item .nav-link:focus{
+        color: #69686f
+        
+    }
+    .header .navbar-toggler{
+        color: #09c;
+    }
+    .header .navbar-toggler{
+        background: #fff;
+       
+    }
+    .header .fa-bars{
+        color: #09c;
+    }
+    .home .des {
+        font-size: 19px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 1.3em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .home .pic img{
+        width: 50%;
+        border: 8px solid #fff;
+        border-radius: 109%;
+        margin-left: 110px;
+    }
+    .home .pic {
+        padding: 80px 0px 0px;
+    }
+
+    .home .title {
+        color: #fff;
+        text-align: left;
+        padding: 80px 0px;
+        margin-top: 0px;
+    }
+        
+    .home .title .title-t {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+     .home .let-connect {
+            padding: 0px 0px;
+            color: #fff;
+            margin-top: 0px;
+            text-align: center;
+        }
+        .home .let-connect .let-connect-title {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 35px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+        .what-i-do {
+            width: 100%;
+            padding: 40px 0px;
+        }
+        .what-i-do .intro .intro-title {
+            text-transform: capitalize;
+            font-size: 35px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+        .what-i-do .intro .intro-title-des {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 1.2em;
+        }
+        .what-i-do .feature-item {
+            padding: 20px 0px;
+            text-align: justify;
+            margin-left: 101px;
+        }
+        .what-i-do .feature-item1 .icon .fa {
+            font-size: 45px;
+            color: rgb(163, 128, 20);
+        }
+        .what-i-do .feature-item1 .content .content-t {
+            font-size: 16px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .what-i-do .feature-item1 .content .content-t {
+            font-size: 15px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .what-i-do .feature-item1 .content .content-t-des {
+            font-size: 13px;
+            line-height: 1.2em;
+            font-weight: 400;
+            margin-top: -7px;
+        }
+        .feature .title .title-t {
+            font-size: 30px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 26px;
+        }
+        .feature .card{
+            margin-left: 0px;
+            margin-bottom: 10px;
+        }
+        .client-review .client-review-t{
+            font-size: 20px;
+            line-height: 1.2em;
+            color: #090303ed;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .client-review{
+            padding: 80px 0px;
+            margin-top: 80px;
+        }
+        .client-review .client-review-t span{
+            font-size: 20px;
+            line-height: 1.2em;
+            color: #090303ed;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .client-review .owl-carousel .client{
+            margin-left: 622px;
+        }
+        .client-review .owl-carousel .item .client-comment{
+            font-size: 9px;
+            padding: 20px 0px 0px;
+        }
+        .contact .contact-head h2{
+            font-size: 30px;
+            text-align: center;
+            line-height: 1.7em;
+            font-weight: 700px;
+        }
+        .contact .form-box{
+            width: 80%;
+            padding: 10px;
+            background: #fff;
+            color: #000;
+        }
+        .contact .form-box-massage{
+            width: 80%;
+        }
+        .contact .button .btn-primary{
+            font-size: 13px;
+            right: 34.2%;
+        }
+        .reache-me .let-connect .let-connect-title{
+            font-size: 25px;
+        }
+        .reache-me .let-connect .social ul li a{
+            font-size: 25px;
+        }
+        .reache-me .copyright .inner-cpoyright .inner-copyright-text {
+            font-size: 10px;
+        }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header .name{
+        font-size: 25px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .header .navbar-nav .nav-item .nav-link{
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .header .navbar-nav .nav-item .nav-link:hover{
+        color: #69686f
+        
+    }
+    .header .navbar-nav .nav-item .nav-link:focus{
+        color: #69686f
+        
+    }
+    .header .navbar-toggler{
+        color: #09c;
+    }
+    .header .navbar-toggler{
+        background: #fff;
+       
+    }
+    .header .fa-bars{
+        color: #09c;
+    }
+    .home .des {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 1.3em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .home .pic {
+        padding: 80px 0px 0px;
+    }
+    .home .pic img {
+        width: 50%;
+        border: 8px solid #fff;
+        border-radius: 109%;
+        margin-left: 145px;
+    }
+    .home .title {
+        color: #fff;
+        text-align: left;
+        padding: 80px 0px;
+        margin-top: 0px;
+    }
+        
+    .home .title .title-t {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+    .home .title-t-des{
+        font-size: 28px;
+        line-height: 1.2em;
+        
+     }
+     .home .let-connect {
+            padding: 0px 0px;
+            color: #fff;
+            margin-top: 0px;
+            text-align: center;
+        }
+        .home .let-connect .let-connect-title {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+        .home .let-connect .social ul li a {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 45px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+        .what-i-do {
+            width: 100%;
+            padding: 60px 0px;
+        }
+        .what-i-do .intro .intro-title {
+            text-transform: capitalize;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+        .what-i-do .intro .intro-title-des {
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 1.2em;
+        }
+        .what-i-do .feature-item {
+            padding: 20px 0px 0px;
+            text-align: justify;
+            margin-left: 154px;
+        }
+        .what-i-do .feature-item1 .icon .fa {
+            font-size: 55px;
+            color: rgb(163, 128, 20);
+        }
+        .what-i-do .feature-item1 .content .content-t {
+            font-size: 30px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .what-i-do .feature-item1 .content .content-t {
+            font-size: 25px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        .what-i-do .feature-item1 .content .content-t-des {
+            font-size: 12px;
+            line-height: 1.2em;
+            font-weight: 400;
+            margin-top: -7px;
+        }
+        .feature .slick-active{
+
+        }
+        .feature .title .title-t {
+            font-size: 40px;
+            line-height: 1.7em;
+            font-weight: 500;
+            text-transform: capitalize;
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 26px;
+        }
+        .feature .card{
+            width: 200px;
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+        .client-review .client-review-t{
+            font-size: 40px;
+            line-height: 1.2em;
+            color: #090303ed;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .client-review .client-review-t span{
+            font-size: 40px;
+            line-height: 1.2em;
+            color: #090303ed;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .client-review .owl-carousel .client{
+            margin-left: 985px;
+        }
+        .client-review .owl-carousel .item .client-comment{
+            font-size: 18px;
+            padding: 20px 0px 0px;
+        }
+        .contact .contact-head h2{
+            font-size: 35px;
+            text-align: center;
+            line-height: 1.7em;
+            font-weight: 700px;
+        }
+        .contact .form-box{
+            width: 80%;
+            padding: 10px;
+            background: #fff;
+            color: #000;
+        }
+        .contact .form-box-massage{
+            width: 80%;
+        }
+        .contact .button .btn-primary{
+            font-size: 15px;
+            right: 37.2%;
+        }
+        .reache-me .let-connect .let-connect-title{
+            font-size: 30px;
+        }
+        .reache-me .let-connect .social ul li a{
+            font-size: 35px;
+        }
+        .reache-me .copyright .inner-cpoyright .inner-copyright-text {
+            font-size: 25px;
+        }
+
+}
+/* responsive.css end here */
+
